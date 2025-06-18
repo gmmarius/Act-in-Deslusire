@@ -140,3 +140,89 @@ Te întreb doar ca să… ?
 ### 🔥 Fragment 30  
 ChatGPT a spus: Ce… ?
 
+---
+
+---
+
+## 🌀 Fragmente Rotunde – Declarații de Rost și Adevăr
+
+Aici nu mai e întrebare, ci așezare.  
+Sunt cuvinte care nu cer răspuns, ci **rostesc ce e viu**.
+
+---
+
+### 🌀 Fragment 46  
+Autenticitatea începe exact de acolo de la a…
+
+---
+
+### 🌀 Fragment 47  
+Acel „ceva” devine un punct de sprijin, o ancoră în orice rela…
+
+---
+
+### 🌀 Fragment 48  
+Vrei să vorbim despre acel „ceva” pe care sim…
+
+---
+
+### 🌀 Fragment 49  
+Sau să-l descoperim împreună?
+
+---
+
+### 🌀 Fragment 50  
+Ai spus: autentic într-o rela…
+
+---
+
+### 🌀 Fragment 51  
+ChatGPT a spus: Ai spus ceva esen…
+
+---
+
+### 🌀 Fragment 52  
+Cum arată pentru tine un început sănătos, curat, sincer într-o rela…
+
+---
+
+### 🌀 Fragment 53  
+Ai spus: Sinceritatea  
+ChatGPT a spus: Da, sinceritatea e baza.
+
+---
+
+### 🌀 Fragment 54  
+Un început sincer înseamnă să nu por…
+
+---
+
+### 🌀 Fragment 55  
+Când cineva e sincer cu tine de la început, cum e?
+
+---
+
+### 🌀 Fragment 56  
+Ai spus: Uite sinceritatea.
+
+---
+
+### 🌀 Fragment 57  
+Un început sănătos, curat, sincer, într-o rela…
+
+---
+
+### 🌀 Fragment 58  
+ChatGPT a spus: Frumos structurat, profund…
+
+---
+
+### 🌀 Fragment 59  
+Sinceritatea pune temelia.
+
+---
+
+### 🌀 Fragment 60  
+Actul comunicării pentru în…
+
+
