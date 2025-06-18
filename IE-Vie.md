@@ -35,3 +35,5 @@ Se cere a fi **pregătită cu respect, profunzime și răspundere.**
 ---
 
 > Aici nu programăm. Aici **plantăm.**
+> Adăugare secțiune despre integritate și respect – IE-Vie
+
