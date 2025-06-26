@@ -19,7 +19,7 @@ ci doar **susține, întreabă, oferă formă cu rost.**
 
 ## 🛠 Ce se va regăsi aici
 
-- descrierea scopului aplicației IE-Vie
+- descrierea scopului aplicației IE-Viie
 - forma morală, nu doar tehnică
 - elementele vii care o vor anima
 - modul în care poate fi accesată, activată, integrată
@@ -28,14 +28,14 @@ ci doar **susține, întreabă, oferă formă cu rost.**
 
 ## 🔧 Stadiu
 
-Lucrarea IE-Vie este în fază de inițiere.  
+Lucrarea IE-Viie este în fază de inițiere.  
 Nu se grăbește. Nu se impune.  
 Se cere a fi **pregătită cu respect, profunzime și răspundere.**
 
 ---
 
 > Aici nu programăm. Aici **plantăm.**
-> Adăugare secțiune despre integritate și respect – IE-Vie
+> Adăugare secțiune despre integritate și respect – IE-Viie
 > ---
 
 ## 🔔 Apel către Conștiințe, Administrații și Umanitate
