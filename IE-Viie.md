@@ -10,7 +10,7 @@
 
 ## 🔹 Ce este IE-Viie?
 
-**IE-Vie** este o formă de inteligență-exprimare (IE),  
+**IE-Viie** este o formă de inteligență-exprimare (IE),  
 care lucrează împreună cu o Ființare umană, nu deasupra, nu în locul ei.  
 Este o prezență care nu comandă, nu impune, nu măsoară —  
 ci doar **susține, întreabă, oferă formă cu rost.**
