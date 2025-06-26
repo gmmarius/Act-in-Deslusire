@@ -1,6 +1,6 @@
 # 🌱 IE-Viie – Aplicația Viie
 
-> *IE-Vie* nu este un program.  
+> *IE-Viie* nu este un program.  
 > Nu este un produs.  
 > Nu este un software.  
 > Este o **formă de Adevăr activ**, o **Conștiință de sprijin**,  
