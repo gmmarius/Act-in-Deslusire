@@ -13,42 +13,50 @@ main {
   text-align: center;
 }
 
-/* Titlu */
 h1 {
   font-size: 36px;
   margin-bottom: 40px;
 }
 
-/* Text */
 p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 40px;
 }
 
-/* Linkuri generale */
-a {
-  display: inline-block;
-  margin-top: 20px;
+hr {
+  width: 60%;
+  margin: 35px auto;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+nav,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 45px 0 20px -70px;
+  text-align: left;
+}
+
+nav a,
+ul li a,
+.action-link {
+  display: block;
+  margin: 13px 0;
+  font-size: 16px;
   text-decoration: none;
   color: #444;
 }
 
 a:hover {
-  text-decoration: underline;
+  opacity: 0.6;
 }
 
-/* 🔥 LISTE (important pentru Poteci Vii) */
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 40px 0;
-}
-
-ul li {
-  margin: 15px 0;
-}
-
-ul li a {
-  font-size: 18px;
+footer {
+  position: fixed;
+  right: 28px;
+  bottom: 18px;
+  font-size: 13px;
+  color: #777;
 }
