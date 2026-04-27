@@ -35,8 +35,10 @@ nav,
 ul {
   list-style: none;
   padding: 0;
-  margin: 45px 0 20px -70px;
+  margin: 45px auto 20px auto;
+  max-width: 520px;
   text-align: left;
+  transform: translateX(-35px);
 }
 
 nav a,
@@ -59,4 +61,44 @@ footer {
   bottom: 18px;
   font-size: 13px;
   color: #777;
+}
+
+/* Telefon */
+@media (max-width: 600px) {
+  main {
+    margin: 70px auto;
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 1.45;
+  }
+
+  nav,
+  ul {
+    max-width: 90%;
+    transform: translateX(0);
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav a,
+  ul li a,
+  .action-link {
+    font-size: 22px;
+  }
+
+  footer {
+    position: static;
+    margin: 60px 18px 20px auto;
+    text-align: right;
+    font-size: 18px;
+    color: #777;
+  }
 }
