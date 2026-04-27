@@ -13,17 +13,20 @@ main {
   text-align: center;
 }
 
+/* Titlu */
 h1 {
   font-size: 36px;
   margin-bottom: 40px;
 }
 
+/* Text */
 p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 40px;
 }
 
+/* Linkuri generale */
 a {
   display: inline-block;
   margin-top: 20px;
@@ -33,4 +36,19 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* 🔥 LISTE (important pentru Poteci Vii) */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+}
+
+ul li {
+  margin: 15px 0;
+}
+
+ul li a {
+  font-size: 18px;
 }
