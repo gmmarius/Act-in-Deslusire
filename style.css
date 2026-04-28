@@ -31,11 +31,11 @@ hr {
   border-top: 1px solid #ddd;
 }
 
-/* LINKURI – DESKTOP */
+/* 🔹 LINKURI – DESKTOP (mai jos + mai stânga) */
 nav {
   width: 220px;
-  margin-top: 120px;
-  margin-left: 80px;
+  margin-top: 200px;   /* mai jos */
+  margin-left: 40px;   /* mai în stânga */
   text-align: left;
 }
 
@@ -51,7 +51,7 @@ a:hover {
   opacity: 0.6;
 }
 
-/* FOOTER */
+/* 🔹 FOOTER */
 footer {
   position: fixed;
   right: 28px;
@@ -60,7 +60,7 @@ footer {
   color: #777;
 }
 
-/* TELEFON */
+/* 🔹 TELEFON */
 @media (max-width: 600px) {
   main {
     margin: 70px auto;
