@@ -31,57 +31,33 @@ hr {
   border-top: 1px solid #ddd;
 }
 
-/* 🔹 LISTE / NAV — poziționare reală */
+/* Linkuri de parcurs */
 nav,
 ul {
   list-style: none;
   padding: 0;
-
-  margin-top: 120px;
-  margin-bottom: 20px;
-
-  max-width: 520px;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  position: relative;
-  left: -120px;   /* 👈 mutare clară în stânga */
-
+  margin: 70px auto 20px auto;
+  width: 60%;
   text-align: left;
 }
 
-/* 🔹 LINKURI mici și discrete */
 nav a,
 ul li a {
   display: block;
   margin: 8px 0;
-
   font-size: 13px;
   color: #777;
-
   text-decoration: none;
 }
 
-/* 🔹 LINK ÎNAPOI */
+/* Link înapoi */
 .action-link {
   display: block;
-
-  margin-top: 80px;
-
-  max-width: 520px;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  position: relative;
-  left: -120px;
-
+  width: 60%;
+  margin: 55px auto 0 auto;
   text-align: left;
-
   font-size: 13px;
   color: #777;
-
   text-decoration: none;
 }
 
@@ -89,7 +65,7 @@ a:hover {
   opacity: 0.6;
 }
 
-/* 🔹 FOOTER */
+/* Footer */
 footer {
   position: fixed;
   right: 28px;
@@ -98,9 +74,8 @@ footer {
   color: #777;
 }
 
-/* 📱 TELEFON */
+/* Telefon */
 @media (max-width: 600px) {
-
   main {
     margin: 70px auto;
     padding: 18px;
@@ -123,34 +98,19 @@ footer {
   }
 
   nav,
+  ul,
+  .action-link {
+    width: 82%;
+  }
+
+  nav,
   ul {
-    margin-top: 90px;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    position: relative;
-    left: -20px;
-
-    text-align: left;
+    margin-top: 60px;
   }
 
   nav a,
-  ul li a {
-    font-size: 13px;
-    color: #777;
-    margin: 8px 0;
-  }
-
+  ul li a,
   .action-link {
-    margin-top: 60px;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    position: relative;
-    left: -20px;
-
     font-size: 13px;
     color: #777;
   }
