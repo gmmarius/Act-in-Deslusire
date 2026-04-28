@@ -34,8 +34,8 @@ hr {
 /* 🔹 LINKURI – DESKTOP (mai jos + mai stânga) */
 nav {
   width: 220px;
-  margin-top: 200px;   /* mai jos */
-  margin-left: 40px;   /* mai în stânga */
+  margin-top: 240px;   /* coborât încă puțin */
+  margin-left: 10px;   /* dus mai mult în stânga */
   text-align: left;
 }
 
@@ -60,7 +60,7 @@ footer {
   color: #777;
 }
 
-/* 🔹 TELEFON */
+/* 🔹 TELEFON (rămâne cum era – NU modificăm) */
 @media (max-width: 600px) {
   main {
     margin: 70px auto;
