@@ -31,6 +31,7 @@ hr {
   border-top: 1px solid #ddd;
 }
 
+/* LISTE / NAV — linkuri discrete */
 nav,
 ul {
   list-style: none;
@@ -38,33 +39,35 @@ ul {
   margin: 70px auto 20px auto;
   max-width: 520px;
   text-align: left;
-  transform: translateX(-95px);
+  transform: translateX(-90px);
 }
 
 nav a,
 ul li a {
   display: block;
-  margin: 14px 0;
-  font-size: 16px;
+  margin: 9px 0;
+  font-size: 13px;
   text-decoration: none;
-  color: #444;
+  color: #777;
 }
 
+/* LINK ÎNAPOI */
 .action-link {
   display: block;
   max-width: 520px;
-  margin: 75px auto 0 auto;
+  margin: 65px auto 0 auto;
   text-align: left;
   transform: translateX(-90px);
-  font-size: 15px;
+  font-size: 13px;
   text-decoration: none;
-  color: #444;
+  color: #777;
 }
 
 a:hover {
   opacity: 0.6;
 }
 
+/* FOOTER */
 footer {
   position: fixed;
   right: 28px;
@@ -73,6 +76,7 @@ footer {
   color: #777;
 }
 
+/* TELEFON */
 @media (max-width: 600px) {
   main {
     margin: 70px auto;
@@ -105,16 +109,18 @@ footer {
 
   nav a,
   ul li a {
-    font-size: 18px;
-    margin: 12px 0;
+    font-size: 13px;
+    color: #777;
+    margin: 9px 0;
   }
 
   .action-link {
     max-width: 82%;
-    margin: 65px auto 0 auto;
+    margin: 55px auto 0 auto;
     text-align: left;
     transform: translateX(-18px);
-    font-size: 16px;
+    font-size: 13px;
+    color: #777;
   }
 
   footer {
