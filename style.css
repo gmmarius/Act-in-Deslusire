@@ -31,14 +31,15 @@ hr {
   border-top: 1px solid #ddd;
 }
 
-/* 🔹 LINKURI – DESKTOP (mai jos + mai stânga) */
+/* 🔹 LINKURI – DESKTOP */
 nav {
   width: 220px;
-  margin-top: 240px;   /* coborât încă puțin */
-  margin-left: 10px;   /* dus mai mult în stânga */
+  margin-top: 240px;
+  margin-left: 10px;
   text-align: left;
 }
 
+/* spațiu între linkuri */
 nav a {
   display: block;
   margin: 8px 0;
@@ -47,11 +48,16 @@ nav a {
   text-decoration: none;
 }
 
+/* spațiu separat pentru „înapoi” */
+nav a.back {
+  margin-top: 24px;   /* aici e rafinarea (în loc de <br>) */
+}
+
 a:hover {
   opacity: 0.6;
 }
 
-/* 🔹 FOOTER */
+/* FOOTER */
 footer {
   position: fixed;
   right: 28px;
@@ -60,7 +66,7 @@ footer {
   color: #777;
 }
 
-/* 🔹 TELEFON (rămâne cum era – NU modificăm) */
+/* TELEFON */
 @media (max-width: 600px) {
   main {
     margin: 70px auto;
@@ -90,8 +96,8 @@ footer {
     text-align: left;
   }
 
-  nav a {
-    font-size: 13px;
+  nav a.back {
+    margin-top: 20px;
   }
 
   footer {
