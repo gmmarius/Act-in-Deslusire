@@ -31,43 +31,54 @@ hr {
   border-top: 1px solid #ddd;
 }
 
-/* LISTE / NAV — linkuri discrete */
+/* 🔹 LINKURI PRINCIPALE — EXACT CUM AI CERUT */
 nav,
 ul {
   list-style: none;
   padding: 0;
-  margin: 70px auto 20px auto;
+
+  margin-top: 110px;   /* mai jos clar */
+  margin-bottom: 20px;
+
   max-width: 520px;
+
   text-align: left;
-  transform: translateX(-90px);
+
+  margin-left: 80px;   /* mutat real în stânga (nu translate) */
 }
 
+/* linkuri mici și discrete */
 nav a,
 ul li a {
   display: block;
-  margin: 9px 0;
-  font-size: 13px;
-  text-decoration: none;
+  margin: 8px 0;
+
+  font-size: 13px;     /* ca footer */
   color: #777;
+
+  text-decoration: none;
 }
 
-/* LINK ÎNAPOI */
+/* 🔹 LINK ÎNAPOI */
 .action-link {
   display: block;
-  max-width: 520px;
-  margin: 65px auto 0 auto;
+
+  margin-top: 70px;
+  margin-left: 80px;
+
   text-align: left;
-  transform: translateX(-90px);
+
   font-size: 13px;
-  text-decoration: none;
   color: #777;
+
+  text-decoration: none;
 }
 
 a:hover {
   opacity: 0.6;
 }
 
-/* FOOTER */
+/* 🔹 FOOTER */
 footer {
   position: fixed;
   right: 28px;
@@ -76,8 +87,9 @@ footer {
   color: #777;
 }
 
-/* TELEFON */
+/* 📱 TELEFON */
 @media (max-width: 600px) {
+
   main {
     margin: 70px auto;
     padding: 18px;
@@ -99,26 +111,25 @@ footer {
     margin: 34px auto;
   }
 
+  /* pe telefon NU mai folosim stânga fixă */
   nav,
   ul {
-    max-width: 82%;
-    transform: translateX(-18px);
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: left;
-    margin: 60px auto 20px auto;
   }
 
   nav a,
   ul li a {
     font-size: 13px;
     color: #777;
-    margin: 9px 0;
+    margin: 8px 0;
   }
 
   .action-link {
-    max-width: 82%;
-    margin: 55px auto 0 auto;
-    text-align: left;
-    transform: translateX(-18px);
+    margin-left: 20px;
+    margin-top: 60px;
     font-size: 13px;
     color: #777;
   }
@@ -128,6 +139,5 @@ footer {
     margin: 55px 20px 20px auto;
     text-align: right;
     font-size: 13px;
-    color: #777;
   }
 }
