@@ -24,3 +24,4 @@ jobs:
           protocol: ftps
           local-dir: ./
           server-dir: /public_html/
+          dangerous-clean-slate: true
