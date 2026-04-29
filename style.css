@@ -39,7 +39,6 @@ nav {
   text-align: left;
 }
 
-/* spațiu între linkuri */
 nav a {
   display: block;
   margin: 8px 0;
@@ -48,13 +47,26 @@ nav a {
   text-decoration: none;
 }
 
-/* spațiu separat pentru „înapoi” */
 nav a.back {
-  margin-top: 24px;   /* aici e rafinarea (în loc de <br>) */
+  margin-top: 24px;
 }
 
 a:hover {
   opacity: 0.6;
+}
+
+/* LOGO ÎNAPOI ACASĂ */
+.home-logo {
+  position: fixed;
+  left: 28px;
+  bottom: 18px;
+  font-size: 13px;
+  color: #777;
+  text-decoration: none;
+}
+
+.home-logo span {
+  margin-left: 8px;
 }
 
 /* FOOTER */
@@ -100,9 +112,17 @@ footer {
     margin-top: 20px;
   }
 
+  .home-logo {
+    position: static;
+    display: block;
+    margin: 45px 20px 0 20px;
+    text-align: left;
+    font-size: 13px;
+  }
+
   footer {
     position: static;
-    margin: 55px 20px 20px auto;
+    margin: 35px 20px 20px auto;
     text-align: right;
     font-size: 13px;
   }
