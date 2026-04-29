@@ -7,19 +7,20 @@ on:
 
 jobs:
   ftp-deploy:
-    name: Upload files via FTP
+    name: Upload files via FTPS
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: FTPS Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: 46.202.158.34
+          server: ftp.ie-viie.org
           username: u362398019
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
+          protocol: ftps
           local-dir: ./
           server-dir: /public_html/
