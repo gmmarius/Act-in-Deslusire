@@ -55,14 +55,18 @@ a:hover {
   opacity: 0.6;
 }
 
-/* LOGO ÎNAPOI ACASĂ */
+/* 🔥 LOGO ÎNAPOI ACASĂ (FIXAT JOS STÂNGA) */
 .home-logo {
   position: fixed;
   left: 28px;
-  bottom: 18px;
-  font-size: 13px;
-  color: #777;
+  bottom: 28px;
+  font-size: 14px;
+  color: #555;
   text-decoration: none;
+  background: rgba(255,255,255,0.85);
+  padding: 6px 10px;
+  border-radius: 6px;
+  z-index: 1000;
 }
 
 .home-logo span {
@@ -78,7 +82,7 @@ footer {
   color: #777;
 }
 
-/* TELEFON */
+/* 📱 TELEFON */
 @media (max-width: 600px) {
   main {
     margin: 70px auto;
@@ -118,6 +122,8 @@ footer {
     margin: 45px 20px 0 20px;
     text-align: left;
     font-size: 13px;
+    background: none;
+    padding: 0;
   }
 
   footer {
