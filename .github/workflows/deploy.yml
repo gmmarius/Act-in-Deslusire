@@ -6,22 +6,21 @@ on:
       - main
 
 jobs:
-  ftp-deploy:
-    name: Upload files via FTPS
+  sftp-deploy:
+    name: Upload files via SFTP
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: FTPS Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: SFTP Deploy
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
-          server: ftp.ie-viie.org
           username: u362398019
+          server: 46.202.158.34
+          port: 65002
+          local_path: './*'
+          remote_path: '/public_html/'
+          sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
-          port: 21
-          protocol: ftps
-          local-dir: ./
-          server-dir: /public_html/
-          dangerous-clean-slate: true
